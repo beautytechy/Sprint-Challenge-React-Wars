@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import axios from "../../starwars/node_modules/axios"
 import PeopleCard from "./PeopleCard"
-import LukeCard from "./LukeCard"
+
 
 const App = () => {
   const [peopleInfo, setpeopleInfo] = useState([]);
